@@ -2,6 +2,7 @@ import Pages from "./pages/Pages"
 import FuntionalComp from "./pages/Components/FunctionCom";
 import {ClassComponent, ClassComponent1} from "./pages/Components/ClassComp";
 import Click from "./pages/Components/Click";
+import Counter from "./pages/Components/Counter";
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <ClassComponent1 />
       <FuntionalComp />
       <Click />
+      <Counter />
     </div>
   );
 }
