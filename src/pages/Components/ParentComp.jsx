@@ -12,12 +12,13 @@ class ParentComp extends Component {
     }
     componentDidMount(){
         setInterval(()=> {
-            this.state({
+            this.setState({
                 name: "Joseph Onahi"
             });
         }, 3000)
     }
   render() {
+    console.log("Parent componnt")
     return (
       <div>I'm the parent
         <PurComp name = {this.state.name} />
