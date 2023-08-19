@@ -1,8 +1,11 @@
 import Pages from "./pages/Pages"
+import ClassProps from "./ClassProps";
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <ClassProps name = "Agana" />
+      <ClassProps name = "Onahi" />
+      <ClassProps name = "Ajom"> <p>Child component</p></ClassProps>
       <Pages />
     </div>
   );
