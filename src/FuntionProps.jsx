@@ -1,9 +1,9 @@
 import React from "react";
 
-function FuntionProps(){
+function FuntionProps(props){
     return( <div>
-        <h1>This is funtional Component</h1>
-        <h1>Welcome gentle leanr4!</h1>
+        <h3>This is funtional Component</h3>
+        <h3>Welcome gentle {props.name}! you're curently in {props.location}</h3>
     </div>
     )
 }
