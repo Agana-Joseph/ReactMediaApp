@@ -1,16 +1,19 @@
-import Pages from "./pages/Pages"
-import ClassProps from "./ClassProps";
-import FuntionProps from "./FuntionProps";
-function App() {
-  return (
-    <div className="App">
-      <ClassProps name = "Agana" ><p>Child component</p></ClassProps>
-      <ClassProps name = "Onahi" ><button>click</button></ClassProps>
-      <ClassProps name = "Ajom"/>
-      <FuntionProps name = "Leaner1" location = "PHC"/>
-      <Pages />
+import React from "react";
+import "./index.css";
+import NewCom from "./Componets/NewCom";
+
+class App extends React.Component {
+  styles = {
+    fontStyle: "bold",
+    color: "#a9d9e6"
+  };
+  render() {
+    return ( <div className="App">
+      <h1 style={this.styles}>Welcome Onahi</h1>
+      <NewCom />
     </div>
-  );
+    )
+  }
 }
 
 export default App;
