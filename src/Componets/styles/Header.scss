@@ -1,0 +1,116 @@
+.header {
+    width: 100%;
+    display: flex;
+    align-items: center; position: absolute; z-index: 1;
+    }
+    .header_logo{
+    margin-left: 4rem;
+    }
+
+    // Navigation bar
+    .navbar{
+    margin: 0 auto;
+    }
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+            margin: 1rem;
+
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                color: #219ebc;
+                margin-left: 1rem;
+            }
+            a:hover{
+                border-bottom: 3px solid #ffb703;
+            }
+        }
+    }
+
+    .changer {
+        display: flex;
+        margin-right: 1.5rem;
+        .menu {
+        cursor: pointer; 
+        margin-right: irem; 
+        display: none;
+        }
+    }
+        .closed {
+            .close { 
+                display: none;
+            }
+        }
+
+        @media (max-width: 800px) {
+            .header {
+            justify-content: space-between;
+            }
+            .navbar{
+            display: none;
+            transition: is ease;
+            }
+            .navbar active{
+            display: flex;
+            flex-direction: column;
+            align-items: center; position: fixed;
+            inset: 0;
+            background: white;
+            transition: 1400ms ease;
+            }
+
+            ul {
+                margin: 0 auto; 
+                align-items: center; 
+                flex-direction: column; 
+                margin-top: 1rem; 
+                    li{
+                    margin-block: 2rem;
+                        a{
+                        font-size: 20px; 
+                        font-weight: bolder;
+                        }
+                     }
+                }
+
+                .changer {
+                    .menu{
+                    display: block;
+                    }
+                    .closed { 
+                        .close { 
+                            display: block;
+                    }
+                    .header_logo{ 
+                        margin-left: 450rem;
+                    }
+                }
+            }
+        }
+
+    @media (max-width: 414) {
+        ul {
+            margin: 0 auto; 
+            align-items: center; 
+            flex-direction: column; 
+            margin-top: 1rem; 
+                li{
+                margin-block: 2rem;
+                    a{
+                    font-size: 20px; 
+                    color: black; 
+                    font-weight: bolder;
+                    }
+                 }
+            }
+            .changer{
+                .menu{
+                    display: block;
+                    margin-right: 0;
+                }
+            }
+
+    }
+

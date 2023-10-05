@@ -1,19 +1,13 @@
 import React from "react";
-import "./index.css";
-import NewCom from "./Componets/NewCom";
+import './App.scss';
+import Header from "./Componets/Header";
 
-class App extends React.Component {
-  styles = {
-    fontStyle: "bold",
-    color: "#a9d9e6"
-  };
-  render() {
-    return ( <div className="App">
-      <h1 style={this.styles}>Welcome Onahi</h1>
-      <NewCom />
+function App (){
+  return(
+    <div className="App">
+      <Header />
     </div>
-    )
-  }
+  );
 }
 
 export default App;
