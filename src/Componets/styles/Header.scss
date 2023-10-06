@@ -20,11 +20,11 @@
             a{
                 text-decoration: none;
                 text-transform: uppercase;
-                color: #219ebc;
+                color: #8ECAE6;
                 margin-left: 1rem;
             }
             a:hover{
-                border-bottom: 3px solid #ffb703;
+                border-bottom: 3px solid #FB8500;
             }
         }
     }
@@ -57,7 +57,7 @@
             flex-direction: column;
             align-items: center; position: fixed;
             inset: 0;
-            background: white;
+            background: #d9d9d9;
             transition: 1400ms ease;
             }
 
