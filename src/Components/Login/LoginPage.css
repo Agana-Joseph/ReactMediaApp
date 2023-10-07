@@ -1,3 +1,6 @@
+body{
+    background-color: #fafafa;
+}
 .loginPage_main{
     display: flex;
     margin: 25px;
@@ -8,21 +11,87 @@
     border: 1px solid #d9d9d9;
     margin-top: 25px;
     text-align: center;
+    background-color: #fff;
 }
 .loginPage_rightcomponent img{
     width: 150px;
     margin-top: 25px;
 }
+
+.loginPage_txt{
+    width: 210px;
+    height: 30px;
+    margin: 3px;
+    border: 1px solid #d9d9d9;
+    background: #fafafa;
+    padding-left: 10px;
+    border-radius: 2px;
+}
+.login_btn{
+    width: 215px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #0395f6;
+    background: #93d0f8;
+    color: #fff;
+    margin-top: 7px;
+}
+
 .loginPage_signin{
     margin-top: 25px;
 }
-.loginPage_txt{
-    width: 258px;
-    height: 36px;
-    margin: 5px;
-    border: 1px solid #d9d9d9;
+
+.loginPage_signup { 
+    margin-top: 20px;
 }
-.login_btn{
-    width: 269px;
-    cursor: pointer;
+
+.login-ordiv{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
 }
+
+.login_dividor{
+    background: #bebebe;
+    color: #bebebe;
+    width: 70px;
+    height: 1.5px;
+    margin-top: 7px;
+
+}
+
+.login_or{
+    margin: 0px 10px;
+    font-weight: bold;
+    color: #bebebe;
+    font-weight: lighter;
+}
+
+.login_fb{
+    color: #395185;
+    font-weight: normal;
+    margin-top: 2px;
+}
+.login_fb img{
+   width: 20px;
+}
+
+.loginPage_downloadSection {
+    height: 105px;
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+    }
+    
+    .loginPage_option { margin-top: 20px;
+    }
+    
+    .loginPage_dwing {
+        margin: 5px;
+    }
+
+
+
