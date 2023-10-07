@@ -1,12 +1,10 @@
 import React from "react";
-import './App.scss';
-import Header from "./Componets/Header";
-import Main from "./Componets/Main"
+import LoginPage from "./Components/Login/LoginPage";
+
 function App (){
   return(
     <div className="App">
-      <Header />
-      <Main />
+      <LoginPage />
     </div>
   );
 }

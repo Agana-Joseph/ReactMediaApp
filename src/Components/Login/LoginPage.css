@@ -1,0 +1,28 @@
+.loginPage_main{
+    display: flex;
+    margin: 25px;
+}
+.loginPage_rightcomponent{
+    height: 380px;
+    width: 350px;
+    border: 1px solid #d9d9d9;
+    margin-top: 25px;
+    text-align: center;
+}
+.loginPage_rightcomponent img{
+    width: 150px;
+    margin-top: 25px;
+}
+.loginPage_signin{
+    margin-top: 25px;
+}
+.loginPage_txt{
+    width: 258px;
+    height: 36px;
+    margin: 5px;
+    border: 1px solid #d9d9d9;
+}
+.login_btn{
+    width: 269px;
+    cursor: pointer;
+}
