@@ -1,6 +1,10 @@
 body{
     background-color: #fafafa;
 }
+.RightItem{
+    display: flex;
+    flex-direction: column;
+}
 .loginPage_main{
     display: flex;
     margin: 25px;
@@ -19,7 +23,7 @@ body{
 }
 
 .loginPage_txt{
-    width: 210px;
+    width: 225px;
     height: 30px;
     margin: 3px;
     border: 1px solid #d9d9d9;
@@ -28,7 +32,7 @@ body{
     border-radius: 2px;
 }
 .login_btn{
-    width: 215px;
+    width: 230px;
     height: 30px;
     border-radius: 5px;
     font-weight: bold;
@@ -42,10 +46,6 @@ body{
 
 .loginPage_signin{
     margin-top: 25px;
-}
-
-.loginPage_signup { 
-    margin-top: 20px;
 }
 
 .login-ordiv{
@@ -79,6 +79,30 @@ body{
    width: 20px;
 }
 
+.login_forgot{
+    margin-top: 20px;
+    font-weight: 0.5px;
+    font-size: 13px;
+    color: #bebebe;
+    font-family: Helvetica;
+
+}
+
+.loginPage_signUpOption{
+        height: 65px;
+        width: 350px;        
+        border: 1px solid #d9d9d9;
+        margin-top: 20px;
+        text-align: center;
+        background-color: #fff;
+}
+
+.loginPage_signup { 
+    margin-top: 50px;
+    font-weight: lighter;
+}
+
+
 .loginPage_downloadSection {
     height: 105px;
     width: 350px;
@@ -86,10 +110,12 @@ body{
     margin-top: 20px;
     }
     
-    .loginPage_option { margin-top: 20px;
+    .loginPage_option { 
+        margin-top: 20px;
     }
     
     .loginPage_dwing {
+        margin-top: 50px;
         margin: 5px;
     }
 

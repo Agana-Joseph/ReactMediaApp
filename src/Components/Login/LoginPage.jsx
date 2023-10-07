@@ -3,6 +3,8 @@ import Grid from '@material-ui/core/Grid'
 import inst_image from '../images/inst_image.png'
 import inst_name from '../images/inst_name.png'
 import fbIcon from '../images/fbIcon.avif'
+import download1 from '../images/dowload1.png'
+import download2 from '../images/download2.png'
 import './LoginPage.css'
 
 export class LoginPage extends Component {
@@ -21,6 +23,7 @@ export class LoginPage extends Component {
                     <div className='inst_image'>
                         <img src={inst_image} width="300" alt="" />
                     </div>
+                    <div className='RightItem'>
                     <div className='loginPage_rightcomponent'>
                         <img className='loginPage_logo' src={inst_name} alt="" />
                         <div>
@@ -39,15 +42,26 @@ export class LoginPage extends Component {
                             <div className='login_fb'>
                             <img className='loginPage_logo' src={fbIcon} alt="" style={{"marginRight" : "5px"}} /> Login with Facbook
                             </div>
-                            <div className='login_forgot'>Forgot password</div>
+                            <div className='login_forgot'>Forgot password?</div>
                         </div>
                     </div>
+
                     <div className='loginPage_signUpOption'>
-                        <div className='loginPage_signUp'>
+                        <div className='loginPage_signin'>
                             Don't have an account? Sign Up
                         </div>
+                        <div className='loginPage_signup'>
+                          Get the app
+                        </div>
+
+                    <div className='login-ordiv'>
+                    <img className=' loginPage_dwing' src={download1} width="120" alt="" />
+                    <img className=' loginPage_dwing' src={download2}  width="120" alt="" />
                     </div>
-                </div>
+                    </div>
+
+                    </div>
+                    </div>
                 </Grid>
                 <Grid item xs={3}></Grid>
             </Grid>
